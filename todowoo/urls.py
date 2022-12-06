@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # Auth
-    path('singup/', views.singupuser, name='singupuser'),
+    path('singup/', views.singupuser, name='signupuser'),
     path('logout/', views.logoutuser, name='logoutuser'),
     path('login/', views.loginuser, name='loginuser'),
     # Todo's
